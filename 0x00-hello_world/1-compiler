@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc $CFILE | 1-sammy.c -E sammy.o
+gcc -c sammy.c | $CFILE -o sammy.o
