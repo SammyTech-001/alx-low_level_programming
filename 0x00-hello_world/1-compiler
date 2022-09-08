@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc export $CFILE=1-sammy.c -E sammy.o
+gcc $CFILE | 1-sammy.c -E sammy.o
