@@ -1,4 +1,3 @@
-#!/bin/bash
 int main(void)
 {
 	char i;
