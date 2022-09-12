@@ -3,19 +3,17 @@
 #include <stdio.h>
 
 /**
- * main - It's an entry point
+ * main - emtry point
  *
- * Return:ensure that you always return 0
+ * Return:always return 0
  */
 int main(void)
-{ 
+{
 	int n;
 
 	srand(time(0));
-
 	n = rand() - RAND_MAX / 2;
-
-	if(n < 0)
+	if (n < 0)
 	{
 		printf("%d is negative\n", n);
 	} else if (n == 0)
