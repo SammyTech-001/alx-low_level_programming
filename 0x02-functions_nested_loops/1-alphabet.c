@@ -3,14 +3,17 @@
 /**
  * The main - it's an entry point
  *
- * Return: always returns 0
+ * Return: return void
  */
 
 void print_alphabet(void)
 {
-	int ch;
+	char letter = 'a';
 
-	for (ch = 'a'; ch <= 'z'; ++ch)
-		_putchar(ch);
+	while (letter <= 'z')
+	{
+		_putchar(letter);
+		letter++;
+	}
 	_putchar('\n');
 }
