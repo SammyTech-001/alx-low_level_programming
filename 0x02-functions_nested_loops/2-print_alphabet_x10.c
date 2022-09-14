@@ -2,6 +2,7 @@
 
 /**
  * main - print out alphabet in numbers of 10 (10 times)
+ * Description: prints out alphabets in numbers of 10 each
  *
  * Return: void
  */
