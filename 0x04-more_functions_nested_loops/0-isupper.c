@@ -9,8 +9,12 @@
 
 int _isupper(int c)
 {
+	int c = 'A'-'Z'
+
 	if (c >= 'A' && c <= 'Z')
 	{
+		_putchar("A" c++)
+
 		return (1);
 	}
 	else
