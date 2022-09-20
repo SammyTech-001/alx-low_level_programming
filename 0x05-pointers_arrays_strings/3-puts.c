@@ -5,6 +5,7 @@
  *
  * @str: string to print
  */
+
 void _puts(char *str)
 {
 	int i;
