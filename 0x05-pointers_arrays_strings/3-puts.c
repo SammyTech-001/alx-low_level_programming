@@ -1,10 +1,10 @@
 #include "main.h"
 #include "2-strlen.c"
-
 /**
  * _puts - puts a string
  *
  * @str: string to print
+ * Return: returns 0
  */
 void _puts(char *str)
 {
