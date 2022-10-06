@@ -83,12 +83,12 @@ int _checknum(char *argv[], int n)
  */
 int main(int argc, char *argv[])
 {
-	int ln1, ln2, lnout, add, add, i, j, k, ca;
+	int ln1, ln2, lnout, add, addl, i, j, k, ca;
 	char *nout;
 
 	if (argc != 3)
 		printf("Erro\n"), exit(98);
-	lnl = _checknum(argv, 1), ln2 = _checknum(argv, 2);
+	ln1 = _checknum(argv, 1), ln2 = _checknum(argv, 2);
 	_is_zero(argv), lnout = ln1 + ln2, nout = malloc(lnout + 1);
 	if (nout == NULL)
 		printf("Error\n"), exit(98);
@@ -112,7 +112,7 @@ int main(int argc, char *argv[])
 			if (nout[0] != '0')
 				break;
 			lnout--;
-			free(nout), nout = malloc(lnout _ 1), nout = _initialize_array(nout, lnout);
+			free(nout), nout = malloc(lnout + 1), nout = _initialize_array(nout, lnout);
 			k = lnout - 1, i = ln1 - 1, j = ln2 - 1, ca = addl = 0;
 		}
 		if (j >= 0)
@@ -121,6 +121,6 @@ int main(int argc, char *argv[])
 			addl = add / 10, nout[k] = (add % 10) + '0';
 		}
 	}
-	print("%s\n", nout);
+	printf("%s\n", nout);
 	return (0);
 }
