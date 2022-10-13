@@ -18,7 +18,7 @@ void print_char(va_list arg)
 	char letter;
 
 	letter = va_arg(arg, int);
-	print("%c", letter);
+	printf("%c", letter);
 }
 
 /**
